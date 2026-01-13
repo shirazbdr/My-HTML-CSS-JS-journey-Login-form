@@ -1,0 +1,106 @@
+/* this code will style the game element*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.game-title{
+    margin-top: 10px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 350px;
+    width: 500px;
+    background-color: blanchedalmond;
+    border: solid 2px black;
+    border-radius: 20px;
+    overflow: visible;
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 5px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: solid 2px black;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+}
+
+button:hover{
+    background-color: rgb(250, 187, 219);
+}
+/*.scissor-image{
+    height: 60px;
+}*/
+.paper-button{
+    background-image: url(assets/paper-emoji.png);
+}
+
+.scissor-button{
+    background-image: url(assets/scissor-emoji.png);
+}
+
+.rock-button{
+    background-image: url(assets/rock-emoji.png);
+}
+
+.rock-button:disabled, .scissor-button:disabled, .paper-button:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.show-result{
+    margin: 10px;
+    border: solid 2px rgb(114, 98, 77);
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    padding-top: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+    border: 2px solid black;
+    height: 350px;
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+p{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.reset-game{
+    border-radius: 20;
+    height: 30px;
+}
+
+.reset-game:disabled{
+    background-color: gray;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
