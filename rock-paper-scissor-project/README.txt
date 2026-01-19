@@ -53,3 +53,10 @@ Today I focused on improving my Rock–Paper–Scissors game. I learned how to:
 
 ### 🎯 Reflection
 I now understand how to manage button states, round limits, and final results in a small game. Today’s work helped me connect JavaScript logic with HTML and CSS more effectively, making my project feel complete and ready to share.
+
+#####16/01/2026
+
+Code update:
+Today I re-coded my Rock–Paper–Scissors game using objects.
+I organized the game logic inside a single object to keep scores, rounds, and elements together.
+I feel satisfied that the game is cleaner and easier to maintain after switching to an object-based structure.
